@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<link href ="global.css" rel = "stylesheet">
+<style>
+    .page_title{
+        margin-left:40px;
+        margin-right:40px;
+        margin-bottom: 40px;
+        padding-left:20px;
+        padding-right:20px;
+        padding-bottom:20px;
+        font-size:35px;
+        border-bottom:1px solid rgb(44,44,44)
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        font-size: 20px;      
+        height: 300px;
+    }
+    .img{
+        margin-left:60px;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .img_text{
+        padding-left:20px;
+        padding-top:20px;
+        margin-right:60px;
+        height : 75px;
+        text-decoration: none;
+        color: rgb(0, 0, 0)
+
+    }
+    .img_text:hover{
+        color:gray;
+    }
+    .youtube_message{
+        font-weight:bold;
+        padding-left:60px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .youtube{
+        padding-left:60px;
+        margin-bottom : 300px;
+    }
+</style>
+<title> Welcome</title>
+    </head>
+    <body>
+<div class ="menu">
+    <a href = "index.html" class = "menu_button_index">Student LEE</a>
+    <a href="education.html" class = "menu_button">학력 사항</a>
+    <a href="project.html"class = "menu_button">프로젝트</a>
+    <a href="more_infomation.html"class = "menu_button"><u>More Infomation</u></a>
+</div>
+    <div class = "page_title">More Infomation</div>
+<div class="content">
+    <img src="youtube.png" class = "img">
+    <a href ="https://www.youtube.com/" class = "img_text">Student LEE's<br><font size="6"><strong>Youtube Page</strong></font><br></a>
+    <img src="github.png" class = "img">
+    <a href ="https://github.com/LeeFFL/WP1" class = "img_text">Student LEE's<br><font size="6"><strong>Github Page</strong></font><br></a>
+</div>
+    <span class="copyright">Copyright 2022. Student LEE All rights reserved. </span>
+    </body>
+</html>
